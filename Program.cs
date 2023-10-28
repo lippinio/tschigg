@@ -15,7 +15,7 @@
             {
                 var tschigg = new Tschigg();
                 tschigg.Setup();
-                // Play third round
+                // Play first round
                 tschigg.PlayRound();
                 if (tschigg.isTschigg())
                 {firstThrowTschiggs++;}
